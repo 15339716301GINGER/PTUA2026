@@ -17,7 +17,7 @@
  2. Read the [Anaconda Documentation][anaconda_doc] if you have difficulty to install the package.
  3. Using the installer you downloaded, install the Anaconda Python distribution (**Ideally this should be installed to the default location in C drive for windows system**).
  4. Now we explore different methods to use Python. First, explore JupyterLab, Jupyter Notebook, iPython interpretor (Qt Console) and Spyder IDE in the Anaconda (**Small task: print "hello world" in each of the python environment**)
- 5. If you want, you can change your Anaconda working directory based on this [guide][guide] (for windows system). If you have a Mac/Linux, you can always navigate to your folder through terminal and open jupyter lab/notebook from there (more details will be covered in week 2).
+ 5. If you want, you can change your Anaconda working directory based on this [guide][guide] (for windows system). Please check this [note][note] as well since you will need to change the working directory at c.ServerApp.root_dir rather than c.NotebookApp.notebook_dir. If you have a Mac/Linux, you can always navigate to your folder through terminal and open jupyter lab/notebook from there (more details will be covered in week 2).
  6. Download the course repository from [qszhao/PTUA2026][repo] as a zip file and put it into your Anaconda working directory (**Hint: look for the green "code" button in the github page**).
  7. Start a jupyter lab/notebook and try to open PTUA Lecture 1.ipynb and run through it (**Hint: use shift-enter in each cell**). 
  8. Try to write markdown and LaTeX math in the Jupyter Notebook based on the [Markdown_guide][markdown] and the [LaTeX][LaTex_math]. If you want to learn more about LaTeX itself, you can check out [this online document][LaTex]. Nowadays, many people shift from Microsoft Word to LaTeX based and user friendly [Overleaf][overleaf] as alternatives. 
@@ -30,7 +30,7 @@
  3. Git installation: if you have a Windows system, please install Git Bash from this [link][gitbash]. If you have a Mac, please install Xcode commandline tools from [here][commandline tools].
 
 #### Code/text editor
- 1. Download a code/text editor ([VSCode][VSCode], [Sublime Text][Sublime], or [Cursur][cursor]).
+ 1. Download a code/text editor ([VSCode][VSCode], [Sublime Text][Sublime], or [Cursor][cursor]).
  2. Download the Markdown file from the [qszhao/PTUA2026][repo] and try to open the Lab01.md from the text editor.
  3. Create a new Markdown file with your student ID as file name, and type in your course goals in the markdown file. 
 
@@ -64,3 +64,4 @@
 [claude]:https://claude.ai/login
 [copilot]:https://copilot.microsoft.com/
 [cursor]: https://cursor.com/download
+[note]: https://discourse.jupyter.org/t/how-to-change-the-root-default-directory-for-files-to-save-jupyter-ver-7-0-6/23532
